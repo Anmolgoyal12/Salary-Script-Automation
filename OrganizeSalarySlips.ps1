@@ -119,5 +119,5 @@ if ($folderBrowser.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
         Write-Host "⚠️ Notification skipped. BurntToast module not available." -ForegroundColor Yellow
     }
 } else {
-    Write-Host "❌ Operation cancelled by user." -ForegroundColor 
+    Write-Host "❌ Operation cancelled by user." -ForegroundColor Red
 }
