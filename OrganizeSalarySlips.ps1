@@ -108,7 +108,7 @@ if ($folderBrowser.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
         Add-Content -Path $logPath -Value ""
     }
 
-    Add-Content -Path $logPath -Value "✅ Script completed successfully.`n"
+    Add-Content -Path $logPath -Value "✅ Script Completed successfully.`n"
     Write-Host "✅ All slips organized in ascending month order (Jan → Dec)." -ForegroundColor Green
 
     # ✅ Toast (optional if BurntToast installed)
